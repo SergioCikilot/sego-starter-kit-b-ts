@@ -4,7 +4,7 @@
   "description": "Sego backend starter pack",
   "main": "index.js",
   "bin": {
-    "sego-starter-kit-b-ts": "bin/generate-app.ts"
+    "sego-starter-kit-b-ts": "bin/generate-app.js"
   },
   "scripts": {
     "start": "npm run build && NODE_ENV=production nodemon ./dist/index.js",
