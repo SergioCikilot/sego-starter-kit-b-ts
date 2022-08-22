@@ -1,6 +1,6 @@
 {
   "name": "sego-starter-kit-b-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sego backend starter pack",
   "main": "index.js",
   "bin": {
