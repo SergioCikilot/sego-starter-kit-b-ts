@@ -18,7 +18,7 @@ const git_repo = 'https://github.com/SergioCikilot/sego-starter-kit-b-ts.git';
 
 try {
   fs.mkdirSync(projectPath);
-} catch (err: any) {
+} catch (err) {
   if (err.code === 'EEXIST') {
     console.log(
       `The file ${projectName} already exist in the current directory, please give it another name.`
